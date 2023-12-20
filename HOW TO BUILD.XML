@@ -1,0 +1,641 @@
+                                                    HAR HAR MOHADEV
+
+
+         001 ==> frontend
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\App.js
+3,4
+
+       App.css
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\App.css
+ALL
+
+
+                          Header
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Header\Header.jsx
+ALL
+
+
+
+                      HOME
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.jsx
+120-122, 2
+
+   
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.css
+ 1-4
+
+
+     if you want to learn three.js then go --> threejs.org / docment 
+
+
+
+           use three.js
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.jsx
+3,  32-42, 100, 101
+
+
+ now see the browser page and see every thing is full to black 
+
+         now add some object 
+
+          moon object
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.jsx
+32-42, 96-104,          pointLight  -->> 53,56,61    now add moon -->  26,28 , 44 - 46,  59    now add venus -->> 29, 48-51 , 60   add  pointLight2 --> 54,57,62      where i move mouse courser rotated  mouse x and y axis wise -->> 65-94 
+
+
+      TIMELINE
+         
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.jsx
+TIMELINE --> 150-155
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\TimeLine\TimeLine.jsx
+npm i @mui/lab
+ALL
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.css
+88-100
+
+
+         SKILLS
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.jsx
+155-198
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Home\Home.css
+101-195, 227-255
+
+
+
+
+                Footer
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Footer\Footer.jsx
+ALL
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Footer\Footer.css
+ALL
+
+
+
+
+
+
+            ABOUT PAGE 
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\About\About.jsx
+ALL
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\About\About.css
+ALL
+
+
+
+
+
+              PROJECT PAGE 
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Projects\Projects.jsx
+10-16,26-42,44-50,52-61,62-80
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Projects\Projects.css
+ALL
+
+
+
+
+
+
+
+
+
+          CONTRACT PAGE 
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Contact\Contact.jsx
+ return,21,22,9-11
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Contact\Contact.css
+ALL
+
+
+
+
+
+                     log in  PAGE
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Login\Login.jsx
+return,  8-10, 16 ,17
+
+
+
+
+
+
+
+
+
+                 002 ==> backend
+
+
+       express
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\app.js
+1,4
+
+            
+D:\mernPortfolio-master\mernPortfolio-master\backend\server.js
+1,2,6, 16-18
+
+
+
+
+           Database
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\config\database.js
+ALL
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\server.js
+3,8
+
+
+
+                   Schema
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\model\User.js
+ALL
+
+
+
+        add router in app.js
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\app.js
+10,11
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\routes\User.js
+1,17-23
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\controller\User.js
+1-73
+
+
+
+
+                          isAuthenticated middelwear
+
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\middlewares\auth.js
+ALL
+
+  # in this auth middelwear i decoded token which is acctually a cookie so if i want to use cookie so import it  on app.js and  use 
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\app.js
+2,5-8
+
+
+
+
+           "/me"
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\routes\User.js
+25
+
+   D:\mernPortfolio-master\mernPortfolio-master\backend\controller\User.js
+75-89
+
+
+
+             sendMail middelwear  this middelwear use in "/contact" page
+
+ firsr go to mailtrap website 
+/ click add inbox button / change intrgaction chose node js 
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\middlewares\sendMail.js
+ALL
+
+
+
+
+        "/contact"
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\routes\User.js
+37
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\controller\User.js
+91-109
+
+
+
+
+   next i want update whoile User.js schema . so if want to update ,so want  to be uplode img . so hear uploded part seen by cloudinary . simply go to ifs official website  . and there show dash bord and there are present   CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET, copy there and pest config.env
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\server.js
+4,10-14
+
+
+
+        add all routes and crontroller  
+
+
+
+          BUT HEAR I DISABLE OR COMMENT OUT ALL Youtube RELATED ROUTER AND crontroller  IF NEED SO USE ALL
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\routes\User.js
+all
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\backend\controller\User.js
+all
+
+
+
+
+
+
+
+                           NOW  COMPLET BACKEND PART 
+
+
+
+
+
+
+
+
+          NOW WORK WITH REDUX
+  
+  I USE REDUX TO RECIVED DATA FROM Database  AND READY the DATA TO USE . MAINLY IN ACTION/ USER.JS ACCESS DATA THROUGH URL
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\index.js
+4,5,17,21
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\Store.js
+1-5, 9-13
+
+
+
+                  TO GET_USER ==>
+                        axios.get("/api/v1/user");
+
+
+
+<!-- !!! one improtant note ==>> basically i use axios.get("/api/v1/user"); when i hit this url  it give me user details when user is not log in because when any 3rd person land this portfolio website then he simpley see my work . becuse 1st of all website store my all data so he see it -->
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\reducers\user.js
+1-16
+
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\Store.js
+6
+
+
+
+D:\mernPortfolio-master  TESTING\mernPortfolio-master\frontend\src\actions\user.js
+1-21
+
+ 
+     add this all decatiles in App.js 
+
+D:\mernPortfolio-master  TESTING\mernPortfolio-master\frontend\src\App.js
+25-28
+
+
+
+               axios.post(
+      "/api/v1/login",
+
+D:\mernPortfolio-master  TESTING\mernPortfolio-master\frontend\src\reducers\user.js
+23-39
+
+
+actions
+23-52
+
+          
+
+
+
+                        axios.get("/api/v1/logout");
+
+
+actions.JS
+54-72
+
+reducers.JS
+56-69
+
+
+ 
+frontend\src\components\Login\Login.jsx
+   12,   18    
+
+
+         #### I WANT SHOW ERR MASSAGE ON  on browser screeen so fro this reson i  in stall  "react-alert" and "react-alert-template-basic" package 
+      now to use go index.js
+
+
+D:\mernPortfolio-master  TESTING\mernPortfolio-master\frontend\src\index.js
+6-13 ,18,20
+
+          hear use the react-alert
+
+D:\mernPortfolio-master  TESTING\mernPortfolio-master\frontend\src\components\Login\Login.jsx
+6, 20-30 , 14
+
+
+
+                        loadUser  ==> axios.get("/api/v1/me");
+
+
+frontend\src\reducers\user.js
+41-54
+
+frontend\src\actions\user.js
+74-92
+
+
+                        now use the loadUser in App.js
+
+
+
+frontend\src\App.js
+27, 54-57
+
+
+
+
+             now go to admin.jsx
+
+
+frontend\src\components\Admin\AdminPanel.jsx
+2-7,  go to return part  --> 94-278 , 12,25,26,32,35-43 , 19-23 , 44, 48-77 ,  after clicking what happpen ---> 33, 9,  79-92,16,17
+
+
+         creat a new reducers --> updateUser
+
+
+           axios.put(
+        "/api/v1/admin/update"
+
+
+frontend\src\reducers\user.js
+80-93,
+
+frontend\src\actions\user.js
+94-127,
+
+
+backend\controller\User.js
+
+read what i comment --> 129,,219
+
+
+
+
+
+
+      ADD_TIMELINE_REQUEST
+
+
+
+frontend\src\reducers\user.js
+95-117
+
+
+frontend\src\actions\user.js
+129-179
+
+
+frontend\src\App.js
+58-61
+
+
+frontend\src\components\Admin\Timeline.jsx
+15-95
+
+
+
+                 go  Youtube 
+
+
+
+
+
+frontend\src\reducers\user.js
+119-141
+
+
+frontend\src\actions\user.js
+181-227
+
+
+frontend\src\App.js
+62-65
+
+
+frontend\src\components\Admin\Youtube.jsx
+16-103 ,
+
+frontend\src\components\YoutubeCard\YoutubeCard.jsx
+11-20,27-41
+
+
+frontend\src\components\Admin\Youtube.jsx
+next all 
+
+
+
+
+
+               now work on next Timeline 
+
+
+frontend\src\components\Admin\Timeline.jsx
+97-127
+
+
+ 
+           now work for ==> 
+
+frontend\src\App.js
+67-71
+
+
+
+frontend\src\components\Admin\Project.jsx
+123-142, next ALL
+
+
+
+
+frontend\src\components\Projects\Projects.jsx
+16-24, 39-47
+
+
+          
+
+
+
+             now add some real  time DATA 
+
+
+
+frontend\src\components\Home\Home.jsx
+24 -->   ({ timelines, youtubes, skills })
+152 --> {timelines}
+img src={skills.image1.url} for all skills 
+203-210
+
+
+
+
+
+frontend\src\App.js
+42-44
+
+frontend\src\components\About\About.jsx
+ 5   --> ({ about })
+
+frontend\src\App.js
+48   {user.about}
+
+
+
+
+frontend\src\components\Projects\Projects.jsx
+52       ({ projects })   , 60   
+
+
+frontend\src\App.js
+51  {user.projects}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

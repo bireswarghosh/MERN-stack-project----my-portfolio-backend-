@@ -1,0 +1,119 @@
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\YoutubeCard
+ THIS WILL BE DELATE
+
+
+D:\mernPortfolio-master\mernPortfolio-master\frontend\src\components\Footer\Footer.jsx
+22 - 38
+
+
+ width: inherit; what is this ?
+
+
+animation: contactTransition 1s linear forwards;
+
+
+
+
+
+2:53:44 - 2:49:34
+
+
+
+
+frontend\src\components\Admin\AdminPanel.jsx
+202,203  explane 
+36 -40 explain 
+
+
+
+
+
+
+
+
+
+
+first time delate in  frontend\src\components\Admin\Timeline.jsx/27
+
+then after that  every where when need  delate fun there only add  --> isAdmin = {true}
+
+then there add automticly add delate button  like 
+
+
+frontend\src\components\YoutubeCard\YoutubeCard.jsx /27
+
+
+next , frontend\src\components\Admin\Project.jsx/135
+
+
+
+
+
+
+***********************************************************************************************************************************
+
+main fanda occure hear --> when isAdmin = {true} mean give access to to delate button 
+
+call hear isAdmin = {true}
+
+frontend\src\components\Admin\Youtube.jsx\114
+
+frontend\src\components\YoutubeCard\YoutubeCard.jsx /27-38
+
+
+
+
+
+call hear isAdmin = {true}
+
+frontend\src\components\Admin\Project.jsx\135
+
+frontend\src\components\Projects\Projects.jsx\40-47
+
+   this 2 have common factor is --> every time there add delate button in img
+
+
+
+
+
+   but when timeline there are no img which should be delate so in a one file like this -->
+frontend\src\components\Admin\Timeline.jsx      do all work
+
+and no need to add isAdmin = {true} directly add 110-119
+**********************************************************************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
