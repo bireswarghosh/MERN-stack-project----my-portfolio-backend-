@@ -1,6 +1,1 @@
-{
-  "version": 2,
-  "name": "portfolio",
-  "builds": [{ "src": "backend/server.j", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "/server.js" }]
-}
+
